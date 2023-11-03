@@ -12,6 +12,7 @@ public class Main {
 		cc.transferir(100, poupanca);
 		
 		cc.imprimirExtrato();
+		
 		poupanca.imprimirExtrato();
 	}
 
