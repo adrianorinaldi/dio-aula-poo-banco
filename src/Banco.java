@@ -21,4 +21,10 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	public void listaClientes() {
+		for(Conta conta: contas) {
+			System.out.println(conta.numero + " - " + conta.cliente.getNome() + "\n");
+		}
+	}
+
 }
